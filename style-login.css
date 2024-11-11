@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+header{
+    border-radius: 20px;
+    margin: 40px 20px;
+    background-color: #ffffff;
+}
+/* Navbar Styles */
+
+.navbar {
+    box-shadow: 1px 1px 20px black;
+    padding: 1.5rem 0 ;
+}
+
+.container {
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff4500;
+    text-decoration: none;
+    justify-content: left;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+}
+
+.nav-links li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.login-btn {
+    background-color: #ff4500;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.login{
+    margin-top:150px;
+    display: flex;
+    justify-content: center;
+}
+.Loginpage{
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color:#000;
+    height:300px;
+    width: 275px;
+    box-shadow: 1px 1px 20px #ff4500;
+}
